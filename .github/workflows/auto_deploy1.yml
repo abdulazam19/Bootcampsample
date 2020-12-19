@@ -34,4 +34,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ http://old-thrill.surge.sh ${{ secrate.surge_token}}
+        run: surge ./ http://old-thrill.surge.sh ${{ secrats.SURGE_TOKEN}}
